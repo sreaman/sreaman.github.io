@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box; 
+}
+*:before, *after{
+    box-sizing: border-box;
+}
+
+article,
+aside,
+footer,
+header,
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+section,
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+
+figcaption,
+figure {
+    display: block; 
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+.site-name {
+    font-size: 2em;
+    font-weight: 600;
+}
