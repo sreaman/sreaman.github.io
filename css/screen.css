@@ -9,7 +9,7 @@
 article,
 aside,
 footer { 
-    background-color: blue;
+    background-color: #0e89d5;
 }
 header {
     background-color: #0e89d5;
@@ -21,12 +21,18 @@ nav {
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: #0e89d5;
+}
+nav a:link{
+    text-decoration: none;
+    color: #FFF;
 }
 section,
 main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    background-color: #FFF;
 }
 ul {
     display: flex;
@@ -42,7 +48,12 @@ body {
     margin: 0; 
     padding: 0;
     font-size: 20px;
-    background-color: burlywood;
+    background-image: url('/images/sunny-winter.jpg');
+    background-size: cover;
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 .site-name {
