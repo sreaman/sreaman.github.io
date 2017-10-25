@@ -5,13 +5,15 @@
 *:before, *after{
     box-sizing: border-box;
 }
-
 article,
 aside,
 footer { 
     background-color: #0e89d5;
 }
 header {
+    background-color: #0e89d5;  
+}
+#page-header {
     background-color: #0e89d5;
 }
 nav {
@@ -26,14 +28,18 @@ nav {
 nav a:link{
     text-decoration: none;
     color: #FFF;
+    display: flex;
+    justify-content: space-around;
 }
 section,
 main {
-    display: flex;
+    display:flex ;
     flex-flow: column nowrap;
     align-items: center;
     background-color: #FFF;
-}
+    background-image: url('/weather/images/plan-images/sunny-winter.jpg');
+    background-size: cover;
+    }
 ul {
     display: flex;
     list-style: none;
