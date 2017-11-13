@@ -15,29 +15,29 @@
          }
         }
         $('#ReqAQuoteBtn').click( FillEmpty );
-    })
-		// jQuery Code goes here
-      //  $('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");
-      //   $("<li><strong>This is also great !!</strong></li>").prependTo(".coreValues");
-       // $('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
-       // $("<li><strong>This is also great !!</strong></li>").appendTo(".coreValues");
+
+
+        $('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");
+         $("<li><strong>This is also great !!</strong></li>").prependTo(".coreValues");
+       $('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
+        $("<li><strong>This is also great !!</strong></li>").appendTo(".coreValues");
       
-//var toggleStyle = function() {
+var toggleStyle = function() {
     
-  //  var inputFields = $('input[type="text"]');
+    var inputFields = $('input[type="text"]');
     
-    //console.log( $('input[type="text"]').css('background-color') );
-     //  if( inputFields.css('background-color') === 'rgb(255, 0, 0)' ) {
+    console.log( $('input[type="text"]').css('background-color') );
+       if( inputFields.css('background-color') === 'rgb(255, 0, 0)' ) {
                 //set background color to white
-          //      inputFields.css('background-color', 'rgb(255, 255, 255)');
+                inputFields.css('background-color', 'rgb(255, 255, 255)');
             }
-                //else  {
+                else  {
             //Set background to red
-         //        inputFields.css('background-color', 'rgb(255, 0, 0)');
-           // }
-            //}
-      //  $('#ReqAQuoteBtn').click( toggleStyle );
-	//})
+                 inputFields.css('background-color', 'rgb(255, 0, 0)');
+            }
+            }
+        $('#ReqAQuoteBtn').click( toggleStyle );
+	})
 	</script>
 </head>
 <body>
